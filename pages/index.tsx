@@ -1,6 +1,12 @@
+import { SideBarIzq } from "@/components/SideBarIzq"
+
 const Index = () => {
   return (
-    <div>Hola mundo</div>
+    <div className="bg-black flex h-screen">
+
+      <SideBarIzq/>
+
+    </div>
   )
 }
 
