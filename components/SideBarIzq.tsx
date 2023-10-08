@@ -1,6 +1,9 @@
 import { About } from "./About"
 import { Profile } from "./Profile"
 import { ProgressBar } from "./ProgressBar"
+import { Skills } from "./Skills"
+import { FaFacebook } from 'react-icons/fa';
+
 
 const SideBarIzq = () => {
     return (
@@ -39,6 +42,12 @@ const SideBarIzq = () => {
                     <ProgressBar Title="HTML" Percentage="30" />
                 </div>
 
+                <div className="bg-hv-gray w-[220px] h-[1.5px]"></div>
+
+                <div className="w-[220px]">
+                    <span className="font-semibold w-[220px] h-[1.5px]"> Extra Skills </span>
+                    <Skills IconComponent={FaFacebook} skill="Teams Work"/>
+                </div>
 
             </div>
         </aside>

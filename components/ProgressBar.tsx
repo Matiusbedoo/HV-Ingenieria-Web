@@ -11,9 +11,9 @@ const ProgressBar = ({ Title, Percentage }: ProgressBarProps) => {
                 <p className="mb-2 text-sm font-medium">{Percentage}</p>
             </div>
 
-            <div className="h-2 bg-gray-200 rounded-full">
+            <div className=" flex items-center h-2 border-hv-yellow border-[1px] rounded-full px-[3px] py-[5px]">
                 <div
-                    className="h-2 rounded-full bg-teal-500"
+                    className="h-1 rounded-full bg-hv-yellow"
                     style={{ width: `${Percentage}%` }}
                 ></div>
             </div>

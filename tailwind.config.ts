@@ -16,6 +16,7 @@ const config: Config = {
 
       colors: {
         "hv-gray": "#F0F0F6",
+        "hv-yellow": "#FFB400"
       },
     },
   },
