@@ -9,8 +9,8 @@ const Skills = ({skill, IconComponent}: SkillsProps ) => {
 
     return (
         <div className="flex flex-row items-center gap-2">
-            <IconComponent size={20} />
-            <span>{skill}</span>
+            <IconComponent className="text-hv-yellow" size={20} />
+            <span className="text-hv-text-gray">{skill}</span>
         </div>
     )
 

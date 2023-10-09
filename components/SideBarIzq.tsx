@@ -2,7 +2,7 @@ import { About } from "./About"
 import { Profile } from "./Profile"
 import { ProgressBar } from "./ProgressBar"
 import { Skills } from "./Skills"
-import { FaFacebook } from 'react-icons/fa';
+import { PiSubtractSquareDuotone } from 'react-icons/pi';
 
 
 const SideBarIzq = () => {
@@ -17,16 +17,16 @@ const SideBarIzq = () => {
                 <div className="bg-hv-gray w-full h-[1.5px]"></div>
 
                 <div className="flex flex-col w-[220px]">
-                    <About Title="Age:" Description="25" />
-                    <About Title="Residence:" Description="BD" />
-                    <About Title="Aux:" Description="Soporte técnico" />
-                    <About Title="Addres:" Description="Colombia, Bello" />
+                    <About Title="Edad:" Description="25" />
+                    <About Title="Residencia:" Description="Colombia, Bello" />
+                    <About Title="Cargo:" Description="Aux. Soporte técnico" />
+                    <About Title="Dirección:" Description="Cra. 66BB #55-51" />
                 </div>
 
                 <div className="bg-hv-gray w-full h-[1.5px]"></div>
 
                 <div className="w-full">
-                    <span className="font-semibold h-[1.5px]"> Languages </span>
+                    <span className="font-semibold h-[1.5px]"> Idiomas</span>
                     <ProgressBar Title="Spanish" Percentage="90" />
                     <ProgressBar Title="English" Percentage="45" />
                 </div>
@@ -34,7 +34,7 @@ const SideBarIzq = () => {
                 <div className="bg-hv-gray w-full h-[1.5px]"></div>
 
                 <div className="w-full">
-                    <span className="font-semibold h-[1.5px]"> Programmin Languages </span>
+                    <span className="font-semibold h-[1.5px]">Lemguajes de programación</span>
                     <ProgressBar Title="Kotlin" Percentage="40" />
                     <ProgressBar Title="Java" Percentage="40" />
                     <ProgressBar Title="Javascript" Percentage="25" />
@@ -45,8 +45,8 @@ const SideBarIzq = () => {
                 <div className="bg-hv-gray w-full h-[1.5px]"></div>
 
                 <div className="w-full">
-                    <span className="font-semibold h-[1.5px]"> Extra Skills </span>
-                    <Skills IconComponent={FaFacebook} skill="Teams Work" />
+                    <span className="font-semibold h-[1.5px]">Habilidades Extras</span>
+                    <Skills IconComponent={PiSubtractSquareDuotone} skill="Trabajo en equipo"/>
                 </div>
 
             </div>
