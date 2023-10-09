@@ -1,11 +1,11 @@
 import { CardEducation } from "./CardEducation"
-import { SectionDescription } from "./sectionDescription"
+import { DescriptionSection } from "./DescriptionSection"
 
 const Education = () => {
     return (
         <div className="flex flex-col gap-2">
 
-            <SectionDescription title="Mis conocimientos" description="En esta sección se muestran los conocimientos y/o habilidades
+            <DescriptionSection title="Mis conocimientos" description="En esta sección se muestran los conocimientos y/o habilidades
                     que he adquirido a lo largo de mi formación universitaría, así como
                     tambien conocimientos adquiridos por experiencia laboral."/>
 

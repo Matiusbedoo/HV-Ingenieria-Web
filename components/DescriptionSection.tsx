@@ -1,10 +1,9 @@
-
-interface SectionDescriptionProps {
+interface DescriptionSectionProps {
     title: string
     description: string
 }
 
-const SectionDescription = ({title, description}:SectionDescriptionProps) => {
+const DescriptionSection = ({title, description}:DescriptionSectionProps) => {
     return (
         <div className="flex flex-col items-center">
             <h1 className="font-bold text-2xl">{title}</h1>
@@ -13,4 +12,4 @@ const SectionDescription = ({title, description}:SectionDescriptionProps) => {
     )
 }
 
-export { SectionDescription }
+export { DescriptionSection }

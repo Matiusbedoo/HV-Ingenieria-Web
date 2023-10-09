@@ -1,6 +1,6 @@
 import { Card } from "./Card"
 import { BiSupport, BiPrinter, BiLogoInternetExplorer, BiLogoAndroid } from 'react-icons/bi';
-import { SectionDescription } from "./sectionDescription";
+import { DescriptionSection } from "./DescriptionSection";
 
 
 const Myknowledge = () => {
@@ -8,7 +8,7 @@ const Myknowledge = () => {
         <div className="flex flex-wrap items-center gap-2">
             
         
-            <SectionDescription title="Mis conocimientos" description="En esta sección se muestran los conocimientos y/o habilidades
+            <DescriptionSection title="Mis conocimientos" description="En esta sección se muestran los conocimientos y/o habilidades
                     que he adquirido a lo largo de mi formación universitaría, así como
                     tambien conocimientos adquiridos por experiencia laboral."/>
 

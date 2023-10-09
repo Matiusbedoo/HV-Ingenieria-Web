@@ -1,7 +1,6 @@
 import { Education } from "./Education"
 import { MainProfile } from "./MainProfile"
 import { Myknowledge } from "./MyKnowledge"
-import { SectionDescription } from "./sectionDescription"
 
 const Main = () => {
     return (
