@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { FaTwitter, FaInstagram, FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { IconNetworks } from './IconNetworks';
 
 const SocialNetworks = () => {
@@ -25,13 +25,13 @@ const SocialNetworks = () => {
     };
 
     return (
-        <div className="fixed top-0 right-0 h-screen w-16 bg-white flex flex-col items-center justify-center">
+        <aside className="right-0 w-1/10 px-2 bg-white flex flex-col py-10">
             <span className='font-semibold text-black'>Links</span>
             <IconNetworks IconComponent={FaLinkedin} onClick={() => redirectToSocialProfile('LinkedIn')} />
             <IconNetworks IconComponent={FaInstagram} onClick={() => redirectToSocialProfile('instagram')} />
             <IconNetworks IconComponent={FaFacebook} onClick={() => redirectToSocialProfile('facebook')} />
             <IconNetworks IconComponent={FaGithub} onClick={() => redirectToSocialProfile('GitHub')} />
-        </div>
+        </aside>
     );
 };
 

@@ -4,7 +4,7 @@ import { SocialNetworks } from "@/components/SocialNetworks"
 
 const Index = () => {
   return (
-    <div className="bg-hv-gray flex w-full h-full">
+    <div className="bg-hv-gray px-3 flex w-full h-full">
       <SideBarIzq/>
       <Main/>
       <SocialNetworks/>
