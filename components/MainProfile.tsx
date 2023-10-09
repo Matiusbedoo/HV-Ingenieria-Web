@@ -3,24 +3,24 @@ import Image from 'next/image';
 
 const MainProfile = () => {
     return (
-        <div className="bg-white flex flex-row justify-items-start">
-            <div className="flex flex-col items-start p-4 gap-2">
-                <h1 className="font-bold">
+        <div className="bg-white flex">
+            <div className="flex flex-col items-start p-10 gap-2">
+                <h1 className="font-bold text-2xl">
                     I´m mateo Bedoya Ospina
                 </h1>
-                <h1 className="font-bold">
+                <h1 className="font-bold text-2xl">
                     Auxiliar de soporte Técnico
                 </h1>
-                <span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Nam nobis quas ut ullam soluta? Quo minus sunt impedit nesciunt 
-                    quam vero delectus vel nulla soluta rerum itaque harum, labore laboriosam.
+                <div className="w-fit">
+                <span className="text-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda autem corporis nesciunt ipsum harum numquam magni obcaecati adipisci eos dignissimos doloribus, maxime commodi, necessitatibus ab quisquam quasi. Unde, sapiente officiis?
                 </span>
-
-                <Button type="primary" text={"Hire Me ->"}/>
+                </div>
+                
+                <Button type="primary" text={"Hire Me ->"} />
             </div>
             <div>
-            <Image className='rounded-full' src='/images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
+                <Image className='rounded-full' src='/images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
             </div>
         </div>
     )

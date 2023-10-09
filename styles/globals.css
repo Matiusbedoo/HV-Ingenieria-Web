@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.imagen-con-fondo {
+    background-color: white;
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+    padding: 10px; /* Opcional: Agrega espacio alrededor de la imagen */
+  }
+
