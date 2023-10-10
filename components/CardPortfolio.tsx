@@ -13,7 +13,7 @@ const CardPortfolio = ({ Title, Description, srcImage }: CardPortfolioProps) => 
 
             <div className='h-[40px] degrade'>
             </div>
-            <Image className='w-full' src='/Images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
+            <Image className='w-full' src='/Image/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
 
             <div className='flex flex-col p-2'>
                 <span className="font-semibold">{Title}</span>
