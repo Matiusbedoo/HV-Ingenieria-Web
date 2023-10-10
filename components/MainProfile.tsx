@@ -1,10 +1,19 @@
 import { Button } from "./Button"
 import Image from 'next/image';
+import { ProfileDialog } from "./Dialogs/ProfileDialog";
+import { useState } from "react";
 
 const MainProfile = () => {
+
+    const [dialogOpen, setDialogOpen] = useState<boolean>(false)
+
+    const handleProgileDialogClick = () => {
+        setDialogOpen(true)
+    }
+
     return (
         <div className="bg-white flex">
-            <div className="flex flex-col items-start p-10 gap-2">
+            <div className="flex flex-col w-3/4 items-start p-10 gap-2">
                 <h1 className="font-bold text-2xl">
                     Mateo Bedoya Ospina
                 </h1>
@@ -21,11 +30,13 @@ const MainProfile = () => {
                 </span>
                 </div>
                 
-                <Button type="primary" text={"Sobre Mi ->"} />
+                <Button type="primary" text={"Sobre Mi ->"} handleClick={handleProgileDialogClick} />
             </div>
-            <div>
+            <div className="flex align-middle">
                 <Image className='rounded-full' src='/images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
             </div>
+
+            <ProfileDialog open={dialogOpen} setDialogOpen={setDialogOpen}/>
         </div>
     )
 }
