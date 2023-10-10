@@ -11,19 +11,19 @@ const Portfolio = () => {
             <div className="overflow-x-auto flex flex-row gap-8">
 
                 <CardPortfolio Title="Proyecto Integrador" Description="Plataforma de manejo de eventos culturales
-                en la ciudad de Medellín" srcImage="/Images/Profile.jpg" />
+                en la ciudad de Medellín" srcImage="/Image/Profile.jpg" />
 
                 <CardPortfolio Title="Proyecto Integrador" Description="Plataforma de manejo de eventos culturales
-                en la ciudad de Medellín" srcImage="/Images/Profile.jpg" />
+                en la ciudad de Medellín" srcImage="/Image/Profile.jpg" />
 
                 <CardPortfolio Title="Proyecto Integrador" Description="Plataforma de manejo de eventos culturales
-                en la ciudad de Medellín" srcImage="/Images/Profile.jpg" />
+                en la ciudad de Medellín" srcImage="/Image/Profile.jpg" />
 
                 <CardPortfolio Title="Proyecto Integrador" Description="Plataforma de manejo de eventos culturales
-                en la ciudad de Medellín" srcImage="/Images/Profile.jpg" />
+                en la ciudad de Medellín" srcImage="/Image/Profile.jpg" />
 
                 <CardPortfolio Title="Proyecto Integrador" Description="Plataforma de manejo de eventos culturales
-                en la ciudad de Medellín" srcImage="/Images/Profile.jpg" />
+                en la ciudad de Medellín" srcImage="/Image/Profile.jpg" />
 
             </div>
         </div>

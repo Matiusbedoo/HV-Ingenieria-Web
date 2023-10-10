@@ -33,7 +33,7 @@ const MainProfile = () => {
                 <Button type="primary" text={"Sobre Mi ->"} handleClick={handleProgileDialogClick} />
             </div>
             <div className="flex align-middle">
-                <Image className='rounded-full' src='/images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
+                <Image className='rounded-full' src='/Image/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
             </div>
 
             <ProfileDialog open={dialogOpen} setDialogOpen={setDialogOpen}/>

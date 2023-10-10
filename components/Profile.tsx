@@ -9,7 +9,7 @@ const Profile = ({ Name, Rol }: ProfileProps) => {
 
     return (
         <div className='flex flex-col'>
-            <Image className='rounded-full' src='/Images/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
+            <Image className='rounded-full' src='/Image/Profile.jpg' height={"150"} width={"150"} alt='Profile Image' />
             <span className="font-semibold">{Name}</span>
             <span className="text-light-grey">{Rol}</span>
         </div>
